@@ -20,7 +20,7 @@ public class Agenda {
 		} while(boleano = false);
 		return numero;
 	}
-
+	
 	public static void verContactos(String mAgenda[][]) {
 		System.out.println("Tus contactos actuales son: ");
 		for(int i=0;i<mAgenda.length;i++) {
