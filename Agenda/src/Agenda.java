@@ -17,7 +17,7 @@ public class Agenda {
 			if(numero>0 && numero<7) {
 				boleano = true;
 			}
-		} while(boleano = false);
+		} while(boleano == false); //Un = es asignación, == comparación
 		return numero;
 	}
 	
