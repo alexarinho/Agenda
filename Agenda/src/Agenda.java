@@ -1,6 +1,13 @@
 import java.util.Scanner;
-
+/*
+*@version 1.0
+*@author Alex Noe
+*/
 public class Agenda {
+	/*
+	*Lo primero que creamos para el proyecto es crear un menu en el cual elegiremos las acciones que llevaremos a cabo
+	en el programa principal.
+	*/
 	public static int menu() {
 		Scanner leer;
 		leer = new Scanner(System.in);
@@ -20,7 +27,9 @@ public class Agenda {
 		} while(boleano == false);
 		return numero;
 	}
-	
+	/*
+	*
+	*/
 	public static void verContactos(String mAgenda[][]) {
 		System.out.println("Tus contactos actuales son: ");
 		for(int i=0;i<mAgenda.length;i++) {
